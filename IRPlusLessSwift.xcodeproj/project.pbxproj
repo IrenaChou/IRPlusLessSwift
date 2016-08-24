@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC591BB81D68A92600468435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC591BB71D68A92600468435 /* AppDelegate.swift */; };
+		BC591BBA1D68A92600468435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC591BB91D68A92600468435 /* ViewController.swift */; };
+		BC591BBD1D68A92600468435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC591BBB1D68A92600468435 /* Main.storyboard */; };
+		BC591BBF1D68A92600468435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC591BBE1D68A92600468435 /* Assets.xcassets */; };
+		BC591BC21D68A92600468435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC591BC01D68A92600468435 /* LaunchScreen.storyboard */; };
+		BC591BCC1D68A97500468435 /* IRPlusLessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC591BCB1D68A97500468435 /* IRPlusLessView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC591BB41D68A92600468435 /* IRPlusLessSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRPlusLessSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC591BB71D68A92600468435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC591BB91D68A92600468435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC591BBC1D68A92600468435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC591BBE1D68A92600468435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC591BC11D68A92600468435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC591BC31D68A92600468435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC591BCB1D68A97500468435 /* IRPlusLessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRPlusLessView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC591BB11D68A92600468435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC591BAB1D68A92600468435 = {
+			isa = PBXGroup;
+			children = (
+				BC591BB61D68A92600468435 /* IRPlusLessSwift */,
+				BC591BB51D68A92600468435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC591BB51D68A92600468435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC591BB41D68A92600468435 /* IRPlusLessSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC591BB61D68A92600468435 /* IRPlusLessSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BC591BB71D68A92600468435 /* AppDelegate.swift */,
+				BC591BB91D68A92600468435 /* ViewController.swift */,
+				BC591BBB1D68A92600468435 /* Main.storyboard */,
+				BC591BBE1D68A92600468435 /* Assets.xcassets */,
+				BC591BC01D68A92600468435 /* LaunchScreen.storyboard */,
+				BC591BC31D68A92600468435 /* Info.plist */,
+				BC591BCB1D68A97500468435 /* IRPlusLessView.swift */,
+			);
+			path = IRPlusLessSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC591BB31D68A92600468435 /* IRPlusLessSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC591BC61D68A92600468435 /* Build configuration list for PBXNativeTarget "IRPlusLessSwift" */;
+			buildPhases = (
+				BC591BB01D68A92600468435 /* Sources */,
+				BC591BB11D68A92600468435 /* Frameworks */,
+				BC591BB21D68A92600468435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRPlusLessSwift;
+			productName = IRPlusLessSwift;
+			productReference = BC591BB41D68A92600468435 /* IRPlusLessSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC591BAC1D68A92600468435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Irena;
+				TargetAttributes = {
+					BC591BB31D68A92600468435 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BC591BAF1D68A92600468435 /* Build configuration list for PBXProject "IRPlusLessSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC591BAB1D68A92600468435;
+			productRefGroup = BC591BB51D68A92600468435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC591BB31D68A92600468435 /* IRPlusLessSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC591BB21D68A92600468435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC591BC21D68A92600468435 /* LaunchScreen.storyboard in Resources */,
+				BC591BBF1D68A92600468435 /* Assets.xcassets in Resources */,
+				BC591BBD1D68A92600468435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC591BB01D68A92600468435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC591BBA1D68A92600468435 /* ViewController.swift in Sources */,
+				BC591BCC1D68A97500468435 /* IRPlusLessView.swift in Sources */,
+				BC591BB81D68A92600468435 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC591BBB1D68A92600468435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC591BBC1D68A92600468435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC591BC01D68A92600468435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC591BC11D68A92600468435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC591BC41D68A92600468435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC591BC51D68A92600468435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC591BC71D68A92600468435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IRPlusLessSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRPlusLessSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC591BC81D68A92600468435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IRPlusLessSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRPlusLessSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC591BAF1D68A92600468435 /* Build configuration list for PBXProject "IRPlusLessSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC591BC41D68A92600468435 /* Debug */,
+				BC591BC51D68A92600468435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC591BC61D68A92600468435 /* Build configuration list for PBXNativeTarget "IRPlusLessSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC591BC71D68A92600468435 /* Debug */,
+				BC591BC81D68A92600468435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC591BAC1D68A92600468435 /* Project object */;
+}
